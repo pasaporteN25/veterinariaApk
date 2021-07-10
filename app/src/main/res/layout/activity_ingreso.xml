@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.IngresoActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:text="@string/dar_de_alta" />
+
+    <EditText
+        android:id="@+id/name_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/nombre"
+        android:inputType="textPersonName"
+        android:autofillHints=" " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:hint="@string/tipo" />
+
+    <RadioGroup
+        android:id="@+id/tipo_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/raza_perro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/perro" />
+
+        <RadioButton
+            android:id="@+id/raza_gato"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gato" />
+
+        <RadioButton
+            android:id="@+id/raza_conejo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/conejo" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/raza_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/raza"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edad_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edad"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/causa_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/causa_de_atenci_n"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/medico_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Medico"
+        android:inputType="textPersonName" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <Button
+        android:id="@+id/guardar_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar" />
+
+</LinearLayout>

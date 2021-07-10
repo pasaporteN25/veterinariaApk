@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SegundaEntrega</string>
+    <string name="perro">Perro</string>
+    <string name="gato">Gato</string>
+    <string name="conejo">Conejo</string>
+    <string name="raza">Raza</string>
+    <string name="edad">Edad</string>
+    <string name="causa_de_atenci_n">Causa de atención</string>
+    <string name="guardar">Guardar</string>
+    <string name="dar_de_alta">Dar de alta</string>
+    <string name="nombre">Nombre</string>
+    <string name="tipo">Tipo</string>
+    <string name="diagnostico">Diagnostico</string>
+    <string name="buscar">Buscar</string>
+    <string name="guardar_diagnostico">Guardar Diagnostico</string>
+</resources>
